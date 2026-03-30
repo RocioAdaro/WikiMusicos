@@ -1,0 +1,453 @@
+body {
+    background-image: url(redes.jpg);
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    background-size:cover;
+    text-align: center;
+    margin: 100px;
+    text-shadow: 10px 10px 10px #6d6666;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.a {
+    margin: 15px 0;
+    color: aquamarine;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+.botonxd input[type="button"],
+.botonxd button {
+   
+    background-color: rgb(125, 155, 182);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.1em;
+    
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactos</title>
+    <link rel="stylesheet" href="contactos.css">
+</head> 
+
+
+<body>
+      <form action="contactos.css" method="GET">
+        <h1>Contactos</h1>
+        <br>
+    <p class="i">Instagram:<a href=" @WIMU.off">@WIMU.off</a></h1>
+    <p class="f">Facebook:<a href=" WIMU.oficial">WIMU.oficial</a></h1>
+    <p class="w">Whatsapp:<a href="">11-1234-5678</a> </h1>
+    <p class="e">Email:<a href="wimu@gmail.com"> wimu@gmail.com </a></h1>
+    <p class="t">Twitter:<a href="@WIMU_oficial">@WIMU_oficial</a> </h1>
+    <p class="y">Youtube: <a href="WIMU oficial">WIMU oficial</a></h1>
+    </form>
+        <br>
+
+    
+    <div id="botonxd">
+        <!--<input type="button" value="volver" onclick="history.back()">-->
+
+        <a id="botoncito" href="inicio.html">Volver</a>
+    </div>
+        
+            
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIMU.com.ar</title>
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<form action="resultados.php" method="GET" class="buscadoresquina">
+  <input type="text" name="buscar" placeholder="Buscar...">
+  <button type="submit">Buscar</button>
+</form>
+
+
+<body> 
+   
+    <nav>
+            <ul>
+                <li><a href="inicio.html"> Inicio</a> </li>
+                <li><a href="perfilmusicos.html"> Crear perfil</a> </li>
+                <li><a href="contactos.html"> Contactos</a></li>
+
+            </ul>
+        </nav>
+        
+       <br> 
+         <h1>Bienvenido a WIMU</h1>
+   
+        <p class="descripcion">
+            Bienvenido a la galeria de musicos argentinos WIMU, aqui podras encontrar informacion sobre los artistas mas destacados de Argentina. Puedes buscar por nombre o explorar las categorias disponibles. Tambien podras crear tu propia descripcion de los musicos que te gusten, agregar un perfil de artista. ¡¡Disfruta de la musica y descubre nuevos talentos emergentes!!.
+        </p>
+       
+  
+    </form>
+     
+</body>
+</html>
+body{
+    background-image: url(argentina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+h1{
+    
+     background: linear-gradient(to right, #7fa4eb,#fff  ,#ffe066,#fff, #7fa4eb);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent;
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p.crear-perfil{
+    color: #8fe4e9;
+    text-shadow: -2px -2px 0 #000;
+    font-size: 30px;
+    text-align: center;
+    font-family: fantasy;
+    
+    
+}
+p.buscar {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin:  10px 0;
+}
+p.buscar input[type="text"] {
+    size: 10px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #0b4279;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+
+    
+}
+p.descripcion{
+    text-shadow: -2px -2px 0 #000;
+    color: #f1e49a;
+    font-size: 35px;
+    text-align: center;
+    
+    font-family: fantasy;
+}
+nav {
+    background-color: #aee4ce; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px; 
+    text-align: center;
+    z-index: 10;
+}
+nav ul {
+    list-style-type: none; 
+    display: flex;
+     padding: 0;
+  margin: 0;
+    justify-content: space-around;
+}
+nav li {
+    display: inline; 
+     margin-right: 20px;
+}
+nav a {
+    text-decoration: none; 
+    color: #000;
+    font-weight: bold;
+}
+
+.buscadoresquina {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  
+}
+body{
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+     text-shadow: 3px 3px 10px #2c0c75, -3px -3px 10px #2a126b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #bbb1f3;
+}
+.img-perfil {
+    max-width: 450px;
+    height: auto;
+}
+<link rel="stylesheet" href="resultados.css">
+<?php
+
+try {
+    $conexion = new PDO('mysql:host=localhost;dbname=musicos','root', '');
+   
+} catch (PDOException $e) {
+    echo 'Falló la conexión: ' . $e->getMessage();
+}
+
+if (isset($_GET['buscar'])) {
+    $busqueda = $_GET['buscar'];
+
+    // Buscar en usuarios
+    $sql1 = "SELECT ID, nombreArti FROM usuarios WHERE nombreArti LIKE ?";
+    $stmt1 = $conexion->prepare($sql1);
+    $stmt1->execute(['%' . $busqueda . '%']);
+    $resultados1 = $stmt1->fetchAll(PDO::FETCH_ASSOC);
+
+    // Buscar en usuariosemergentes
+    $sql2 = "SELECT ID, usuario FROM usuariosemergentes WHERE usuario LIKE ?";
+    $stmt2 = $conexion->prepare($sql2);
+    $stmt2->execute(['%' . $busqueda . '%']);
+    $resultados2 = $stmt2->fetchAll(PDO::FETCH_ASSOC);
+
+    echo "<h2>Resultados de la búsqueda para '" . htmlspecialchars($busqueda) . "'</h2>";
+    echo "<ul>";
+    foreach ($resultados1 as $fila) {
+        echo "<li><a href='perfil.php?id=" . $fila['ID'] . "'>" . htmlspecialchars($fila['nombreArti']) . "</a></li>";
+    }
+    foreach ($resultados2 as $fila) {
+        echo "<li><a href='perfil.php?id=" . $fila['ID'] . "'>" . htmlspecialchars($fila['usuario']) . "</a></li>";
+    }
+    echo "</ul>";
+
+    if (empty($resultados1) && empty($resultados2)) {
+        echo "No se encontraron resultados para '" . htmlspecialchars($busqueda) . "'.";
+    }
+} else {
+    echo "Por favor, ingresa un término de búsqueda.";
+}
+?>
+body{
+    background-image: url(logomusica.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(20Px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #000000; 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+}   
+.dato-ingresado {
+    color: #1a4db4;
+    background: #f0f8ff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 2px 8px #ccc;
+}
+input{
+    size: 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musicos emergentes</title>
+    <link rel="stylesheet" href="perfilmusicos.css">
+    
+</head>
+
+<body>
+    <form action="perfilmusicos.php" method="post">
+        <h1>Crear perfil de artista</h1>
+        <br>
+        Nombre del artista <input type="text" name="nombre" id="">
+        <br>
+        Genero musical <input type="text" name="genero" id="">
+        <br>
+        Descripcion del artista <input type="text" name="descripcion" id="">
+        <br>
+        Canciones populares <input type="text" name="canciones" id="">
+        <br>
+        <input type="submit" value="crear perfil">
+        <br>
+
+        <input type="button" value="volver" onclick="history.back()">
+
+    </form>
+
+
+</body>
+</html>
+<?php
+try{
+    $conexion = new PDO('mysql:host=localhost;dbname=musicos','root', '');
+    echo ".";
+} catch (PDOException $e) {
+    echo 'Falló la conexión: ' . $e->getMessage();
+}
+
+ if ($_POST){
+    $nombre = $_POST['nombre'];
+    $genero = $_POST['genero'];
+    $descripcion = $_POST['descripcion'];
+    $temas = $_POST['canciones'];
+    }
+    try{
+        
+         $sql = "INSERT INTO usuariosemergentes (usuario,GeneroMusi ,descripcion, temas ) VALUES ('$nombre', '$genero', '$descripcion','$temas');"; 
+        $conexion->query($sql);
+        echo "Producto insertado correctamente."; 
+   
+        $Datos = $conexion->query("SELECT * FROM usuariosemergentes");
+      
+
+foreach ($Datos as $dato) {
+    echo "<div class='dato-ingresado'>";
+    echo "Datos correctamente ingresados<br>";
+    echo "</div>";
+}
+
+
+ } catch (PDOException $e) {
+        echo "Error al insertar el producto: " . $e->getMessage();
+
+
+    }
+
+?>
+   <input type="button" value="Volver" onclick="history.back()">
+body{
+  
+    text-align: center;
+    margin: 100px;
+    text-shadow: 10px 10px 10px #6d6666;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIMU</title>
+    <link rel="stylesheet" href="BUSCAR.css">
+    <link rel="stylesheet" href="inicio.html">
+</head>
+<body>
+    <form method="post" action="buscar.php">
+        <input type="text" name="buscar" placeholder="Buscar artista">
+        <button type="submit">Buscar</button>
+    </form>
+    <br>
+
+    <?php
+    try {
+        $conexion = new PDO('mysql:host=localhost;dbname=musicos','root', '');
+    } catch (PDOException $e) {
+        echo 'Falló la conexión: ' . $e->getMessage();
+    }
+
+    if (isset($_POST["buscar"])) {
+        $busqueda = $_POST["buscar"];
+
+        // Buscar en usuarios
+        $sql1 = "SELECT nombreArti, generomusi, descripcion FROM usuarios WHERE nombreArti LIKE ?";
+        $stmt1 = $conexion->prepare($sql1);
+        $stmt1->execute(['%' . $busqueda . '%']);
+
+        // Buscar en usuariosemergentes
+        $sql2 = "SELECT usuario, GeneroMusi, descripcion, temas FROM usuariosemergentes WHERE usuario LIKE ?";
+        $stmt2 = $conexion->prepare($sql2);
+        $stmt2->execute(['%' . $busqueda . '%']);
+
+        $encontrado = false;
+
+        while ($fila = $stmt1->fetch(PDO::FETCH_ASSOC)) {
+            echo "<b>Nombre:</b> " . htmlspecialchars($fila["nombreArti"]) . "<br>";
+            echo "<b>Género:</b> " . htmlspecialchars($fila["generomusi"]) . "<br>";
+            echo "<b>Descripción:</b> " . htmlspecialchars($fila["descripcion"]) . "<br>";
+            echo "<hr>";
+            $encontrado = true;
+        }
+
+        while ($fila = $stmt2->fetch(PDO::FETCH_ASSOC)) {
+            echo "<b>Nombre:</b> " . htmlspecialchars($fila["usuario"]) . "<br>";
+            echo "<b>Género:</b> " . htmlspecialchars($fila["GeneroMusi"]) . "<br>";
+            echo "<b>Descripción:</b> " . htmlspecialchars($fila["descripcion"]) . "<br>";
+            echo "<b>Temas:</b> " . htmlspecialchars($fila["temas"]) . "<br>";
+            echo "<hr>";
+            $encontrado = true;
+        }
+
+        if (!$encontrado) {
+            echo "No se encontraron resultados.";
+        }
+    } else {
+        echo "Ingrese un nombre para buscar.";
+    }
+    ?>
+  
+</body>
+</html>  
