@@ -1,0 +1,41 @@
+body{
+    background-image: url(logomusica.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(20Px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #000000; 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+}   
+.dato-ingresado {
+    color: #1a4db4;
+    background: #f0f8ff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 2px 8px #ccc;
+}
+input{
+    size: 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
